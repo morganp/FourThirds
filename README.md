@@ -7,14 +7,14 @@ The basic layout of a Sinatra application is:
     app.rb     #Contains Routes, Controller and ORM Models
     config.ru  #Contains Information for rack web server
     db/data.db #The Database
-    public/    #Static non templated data.
+    public/    #Static non template data.
     views/     #ERB, HAML etc web page templates
     views/layout.erb #The default structural template applied to all ERB pages
 
-Gem is Rubys package managment system. they will not install by them selves so you do need to have some installed first. you can check what you have by running:
+Gem is Rubys package management system. they will not install by them selves so you do need to have some installed first. you can check what you have by running:
     $ gem list
 
-I have (Shotened list) Versions:
+I have (Shortened list) Versions:
     activerecord (2.3.5)
     activeresource (2.3.5)
     activesupport (2.3.5)
