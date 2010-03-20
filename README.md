@@ -17,11 +17,12 @@ To use this example you should be able to:
     cd FourThirds 
     #Initialise SQLite3 Database
     ruby init_db.rb
-    #Run app on Webrick access via [http://127.0.0.1:4567][localsin]
+    #Run app on Webrick access via http://127.0.0.1:4567/
     ruby app.rb
 
+This should be accessible on [http://127.0.0.1:4567/][localsin]
 
 [sinatra]: http://www.sinatrarb.com
 [ORMLesson]: http://github.com/morganp/Code-Dojo/tree/master/ORM/
-[localsin]:  http://127.0.0.1:4567
+[localsin]:  http://127.0.0.1:4567/
 
