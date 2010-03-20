@@ -1,0 +1,7 @@
+<p><a href="/todo/create">Create New</a></p>
+<table>
+<% for todo in @todo %>
+<tr><td><% if todo.done %>Done<% else %>TODO<% end %></td>
+<td><a href="/todo/<%=todo.id%>"><%=todo.desc%></a></td></tr>
+<% end %>
+</table>

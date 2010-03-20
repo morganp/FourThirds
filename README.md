@@ -11,7 +11,24 @@ The basic layout of a Sinatra application is:
     views/     #ERB, HAML etc web page templates
     views/layout.erb #The default structural template applied to all ERB pages
 
-To use this example you should be able to:
+Gem is Rubys package managment system. they will not install by them selves so you do need to have some installed first. you can check what you have by running:
+    $ gem list
+
+I have (Shotened list) Versions:
+    activerecord (2.3.5)
+    activeresource (2.3.5)
+    activesupport (2.3.5)
+    sequel (3.8.0, 3.7.0)
+    sinatra (0.9.6, 0.9.4)
+    sqlite3-ruby (1.2.5)
+
+For this example you will need:
+    gem install sequel
+    gem install activerecord
+    gem install sinatra
+    gem install sqlite3-ruby
+
+To run this example you should be able to:
     cd ~/your/local/code/dir
     git clone http://github.com/morganp/FourThirds.git 
     cd FourThirds 
