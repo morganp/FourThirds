@@ -1,0 +1,2 @@
+Git will not allow empty directories and SEQUEL will not create folder structur by default.
+So you are getting a readme file here to keep GIT happy.
