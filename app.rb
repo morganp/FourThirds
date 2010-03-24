@@ -62,11 +62,12 @@ get '/todo/create/?' do
 end
 
 post '/todo/?' do
-   Todo.create(
+   @todo = Todo.create(
       :done => params['post']['done'],
       :desc => params['post']['desc']
    )
-   redirect '/todo/'
+   #Retun to view of newly created item
+   redirect '/todo/' + @todo.id.to_s
 end
 
 get '/todo/:id/edit/?' do
