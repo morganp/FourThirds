@@ -4,6 +4,7 @@ FourThirds
 This is an example of efficient use of views in [Sinatra][sinatra] covering RESTful actions. Data is retrieved and modified from a database using ORMs, I have a set of lessons and answers you can follow if you wish to [learn more about][ORMLesson] this.
 
 The basic layout of a Sinatra application is:
+
     app.rb     #Contains Routes, Controller and ORM Models
     config.ru  #Contains Information for rack web server
     db/data.db #The Database
@@ -15,6 +16,7 @@ Gem is Rubys package management system. they will not install by them selves so 
     $ gem list
 
 I have (Shortened list) Versions:
+
     activerecord (2.3.5)
     activeresource (2.3.5)
     activesupport (2.3.5)
@@ -23,12 +25,14 @@ I have (Shortened list) Versions:
     sqlite3-ruby (1.2.5)
 
 For this example you will need:
+
     gem install sequel
     gem install activerecord
     gem install sinatra
     gem install sqlite3-ruby
 
 To run this example you should be able to:
+
     cd ~/your/local/code/dir
     git clone http://github.com/morganp/FourThirds.git 
     cd FourThirds 
